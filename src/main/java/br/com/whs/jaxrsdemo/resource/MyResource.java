@@ -1,4 +1,4 @@
-package br.com.whs.jaxrsdemo;
+package br.com.whs.jaxrsdemo.resource;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
