@@ -16,7 +16,7 @@ public class UserTest {
 		ObjectMapper mapper = new ObjectMapper();
 		String json = mapper.writeValueAsString(list);
 		System.out.println(json);
-		List<Map<String, String>> listRet = JsonUtil.fromJsonList(json);
+		List<Map<String, Object>> listRet = JsonUtil.fromJsonList(json);
 		for( int i = 0; i < listRet.size(); i++ ){
 			System.out.println(listRet.get(i).toString());
 		}
